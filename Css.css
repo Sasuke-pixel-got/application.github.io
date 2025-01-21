@@ -1,0 +1,100 @@
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f0e6ea; /* Light pink background */
+  background-image: url('wep.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  position: absolute;
+  top: auto;
+  left: auto;
+  border: #0c586fe7;
+  border-radius: 20cqb;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Modal window styles */
+.modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(56, 51, 51, 0.502);
+}
+
+.modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        overflow-y: auto;
+        max-height: 70vh;
+}
+
+.close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+}
+/* but 2*/
