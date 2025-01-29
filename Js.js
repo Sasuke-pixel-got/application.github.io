@@ -46,8 +46,8 @@ function saveAsPDF() {
   doc.text(`Fenced Yard: ${fencedYard}`, 10, 90);
   doc.text(`Kids at Home: ${kidsAtHome}`, 10, 100);
   doc.text(`Time with Pup: ${timeWithPup}`, 10, 110);
-  doc.text(`Previous Bulldog: ${previousBulldog}`, 10, 120);
-  doc.text(`Previous Bulldog Count: ${previousBulldogCount}`, 10, 130);
+  doc.text(`Previous Doberman: ${previousBulldog}`, 10, 120);
+  doc.text(`Previous Doberman Count: ${previousBulldogCount}`, 10, 130);
   doc.save('adoption-application.pdf');
 
   // Create a JSON string from the form data
